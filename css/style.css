@@ -1,0 +1,252 @@
+body{
+    background-image: url('../img/bg-img-flip.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#4D4F53;
+}
+
+body a{
+    text-decoration: none;
+}
+
+.logo{
+    position: absolute;
+    left: 20px;
+     /*bottom: 30px;*/
+    top:30px;
+}
+
+.logo img{
+    /* max-width:50px; */
+    max-width:80px;
+}
+
+.bg-dim{
+    background-color: rgba(0,0,0,.5);
+}
+
+.caption-link a{
+text-decoration: none;   
+color: inherit;
+}
+
+
+/* ------------Overrides------------*/
+.text-warning{
+    color:#F0AB00 !important;
+}
+
+.btn-warning {
+    color: #fff !important;
+    background-color: #F0AB00 !important; /*ffc107*/
+    border-color: #F0AB00 !important;
+}
+
+.carousel-indicators{
+    position:absolute !important;
+    bottom:-50px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 50% !important;
+    width:15px !important;
+    height: 15px !important;
+    background-color:#F0AB00 !important;
+    opacity: 1 !important;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color:#e11b22 !important;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    /* top: -130px; */
+    height:60%;
+}
+
+.carousel-caption{
+    position:unset !important;
+    text-align: left;
+   /* bottom:-50px !important;
+   background-color: rgba(0, 0, 0, 0.66);*/
+   background-color: #fff;
+   color:#4D4F53;
+}
+
+.carousel-caption h5{
+    
+}
+
+.login-form{
+    min-height:400px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+}
+
+.login-form form img{
+    width:50px;
+}
+
+.login-form .title-text{
+    color:#4e4e4e;
+    font-size: 1.2em;
+}
+
+.login-form .btn{
+    width:10em;
+}
+
+.carousel{
+    min-height:400px;
+}
+
+.form-check .form-check-input {
+    float: unset !important;
+    margin-left: unset !important;
+}
+
+/*-------------Custom-------------------*/
+.txt-lgt-gray{
+    color:#C9CAC8;
+}
+
+.txt-drk-gray{
+    color:#4D4F53;
+}
+
+.text-lightblue{
+    color:#5EB9E4;
+}
+
+.txt-shadow{
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.45);
+}
+
+.container-xxl{
+    max-width: 1400px;
+    width: 100%;
+    padding-right: var(--bs-gutter-x,1rem);
+    padding-left: var(--bs-gutter-x,1rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-xxxl {
+    max-width: 2000px;
+    width: 100%;
+    padding-right: var(--bs-gutter-x,3rem);
+    padding-left: var(--bs-gutter-x,3rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-xxxxl{
+    max-width: 4000px;
+    width: 100%;
+    padding-right: var(--bs-gutter-x,15rem);
+    padding-left: var(--bs-gutter-x,15rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*-------------Media Queries-------------------*/
+/*------Small Screens---------*/
+@media (max-width: 575px){    
+.login-form .btn{
+    width:10em !important;
+}
+.logo img{
+     max-width:50px;
+}
+}
+
+@media (min-width: 576px){
+.w-sm-50{width: 50%!important;}
+.w-sm-60{width: 60%!important;}
+.w-sm-40{width: 40%!important;}
+.login-form .btn{
+    width:6em !important;
+}
+.logo img{
+    max-width:70px;
+}
+
+}
+
+
+/*-------Medium Screens--------*/
+@media (min-width: 786px){
+    .w-md-90{width: 90%!important;}
+    .logo img{
+        max-width:80px;
+    }
+
+    
+    }
+
+
+    @media (max-width:785px){
+    
+        .container-xxxl {
+            max-width: 2000px;
+            width: 100%;
+            padding-right: unset !important;
+            padding-left: unset !important;
+        }
+        
+        }
+
+/*-------Large Screens--------*/
+@media (min-width: 992px){
+    .w-lg-60{width: 90%!important;}    
+    .w-lg-40{width: 60%!important;}    
+
+    .login-form .btn{
+        width:6.5em !important;
+    }
+    .logo img{
+        max-width:80px;
+    }
+}
+
+
+/*-------X-Large Screens--------*/
+@media (min-width: 1200px){
+
+    .w-lg-60{width: 90%!important;}    
+    .w-lg-40{width: 60%!important;}    
+    .login-form .btn{
+        width:7em !important;
+    }
+    .logo img{
+        max-width:80px;
+    }
+    
+
+}
+
+/*-------XX-Large Screens--------*/
+@media (min-width: 1400px){
+    .w-lg-60{width: 90%!important;}    
+    .w-lg-40{width: 60%!important;}    
+    .login-form .btn{
+        width:7em !important;
+    }
+    .logo img{
+        max-width:80px;
+    }
+
+}
+
+/*-------XXX-Large Screens--------*/
+@media (min-width: 2800px){
+
+
+
+}
+
+
+
