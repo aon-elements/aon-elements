@@ -10,11 +10,15 @@ body a{
     text-decoration: none;
 }
 
+#header{
+    height:40px;
+}
+
 .login-pg{
 background-image: url('../img/bg-img-flip.jpg');
 }
 
-.lp-pg{
+.model-pg{
     background-image: url('../img/bg-img-flip.jpg');
     backdrop-filter: blur(12px);
 }
