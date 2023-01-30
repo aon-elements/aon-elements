@@ -14,6 +14,11 @@ body a{
 background-image: url('../img/bg-img-flip.jpg');
 }
 
+.lp-pg{
+    background-image: url('../img/bg-img-flip.jpg');
+    backdrop-filter: blur(12px);
+}
+
 .logo{
     position: absolute;
     left: 20px;
