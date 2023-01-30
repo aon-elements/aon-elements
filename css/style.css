@@ -14,6 +14,18 @@ body a{
     height:40px;
 }
 
+.model-pg #header{
+    height:90px;
+}
+
+.model-pg .card img{
+    max-width: 80px;
+}
+
+.model-pg .card-title {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
 .login-pg{
 background-image: url('../img/bg-img-flip.jpg');
 }
@@ -128,6 +140,18 @@ color: inherit;
 
 .text-lightblue{
     color:#5EB9E4;
+}
+
+.bg-lgt-gray{
+    background-color:#C9CAC8;
+}
+
+.bg-drk-gray{
+    background-color:#4D4F53;
+}
+
+.bg-lightblue{
+    background-color:#5EB9E4;
 }
 
 .txt-shadow{
