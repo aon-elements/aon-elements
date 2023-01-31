@@ -92,14 +92,13 @@ body a:hover{
 
 
 --------Scroll Code-------
-p.scroll-box{
+.scroll-box{
     /* overflow-y: scroll !important; */
     height: 100px !important;/*92vh;*/
     /* -webkit-overflow-scrolling: touch !important; */
     /* overflow: hidden; */
     overflow-y: auto !important;
     scrollbar-width: thin !important;
-    color:red;
 }
 
  /* ------------Overrides------------*/
