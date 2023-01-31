@@ -24,6 +24,7 @@ body a:hover{
     background-image: url(../img/bg-img-flip.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    /* backdrop-filter: blur(10px); */
 }
 
 .logo{
