@@ -91,8 +91,7 @@ body a:hover{
 
 
 --------Scroll Code-------
-
-.scroll-box{
+#model-pg .scroll-box{
     overflow-y: scroll !important;
     height: 100px !important;/*92vh;*/
     -webkit-overflow-scrolling: touch !important;
@@ -101,31 +100,7 @@ body a:hover{
     scrollbar-width: thin !important;
 }
 
-    /* width */
-::-webkit-scrollbar {
-        width: 5px !important;
-      }
-    
-      
-/* Track */
- ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
-
-
-
-
-/* ------------Overrides------------*/
+ /* ------------Overrides------------*/
 .text-warning{
     color:#F0AB00 !important;
 }
