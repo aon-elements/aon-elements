@@ -90,11 +90,11 @@ body a:hover{
 
 
 
---------Scroll COde-------
+--------Scroll Code-------
 
 .scroll-box{
     overflow-y: scroll !important;
-    height: 150px !important;/*92vh;*/
+    height: 100px !important;/*92vh;*/
     -webkit-overflow-scrolling: touch !important;
     /* overflow: hidden; */
     overflow-y: auto !important;
@@ -103,7 +103,7 @@ body a:hover{
 
     /* width */
 ::-webkit-scrollbar {
-        /*width: 5px !important;*/
+        width: 5px !important;
       }
     
       
