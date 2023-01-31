@@ -91,7 +91,7 @@ body a:hover{
 
 
 --------Scroll Code-------
-.box{
+p.scroll-box{
     /* overflow-y: scroll !important; */
     height: 100px !important;/*92vh;*/
     /* -webkit-overflow-scrolling: touch !important; */
