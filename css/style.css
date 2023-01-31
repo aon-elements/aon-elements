@@ -111,14 +111,14 @@ body a:hover{
 .side-bar .indicator{
     display: inline-flex;
     height: 55px;
-    background: url(/img/indicator.svg);
+    background: url(../img/indicator.svg);
     top: -10px;
     position: relative;
 }
 
 .side-bar .sep{
     display: block;
-    background: url(/img/line.svg);
+    background: url(../img/line.svg);
     height: 1px;
     margin-top: -6px; /*5*/
 }
