@@ -91,13 +91,14 @@ body a:hover{
 
 
 --------Scroll Code-------
-#model-pg .scroll-box{
+.scrol{
     overflow-y: scroll !important;
     height: 100px !important;/*92vh;*/
     -webkit-overflow-scrolling: touch !important;
     /* overflow: hidden; */
     overflow-y: auto !important;
     scrollbar-width: thin !important;
+    color:red;
 }
 
  /* ------------Overrides------------*/
@@ -173,7 +174,7 @@ body a:hover{
 }
 
 #body .card{
-    height:460px;
+    height:500px;
 }
 
 .card{
