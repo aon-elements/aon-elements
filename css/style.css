@@ -5,15 +5,22 @@
   }
 
 body{
+    background-image: url('../img/bg-img-flip.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height:100vh;
     font-family: Arial, Helvetica, sans-serif;
     color:#4D4F53;
+    background-color: aliceblue;
 }
 
 body a{
-    text-decoration: none;
+    text-decoration: none !important;
+    color:unset;
+}
+
+body a:hover{
+    color:unset;
 }
 
 .logo{
@@ -28,47 +35,63 @@ body a{
     max-width:80px;
 }
 
-header{
-    height:100px;
-}
 
 -----------Login Page------------
-
-.login-pg{
-background-image: url('../img/bg-img-flip.jpg');
+#login-pg{
+    background-image: url('../img/bg-img-flip.jpg') !important;
+    backdrop-filter: blur(12px) !important;
 }
 
-----------Model Page-------------
-
-.model-pg header{
-    height:100px;
-}
-
-.model-pg .card img{
-    max-width: 100px;
-}
-
-.model-pg .card-title {
-    font-family:rockwell;
-    text-align: center;
-}
-
-.model-pg{
-    background-image: url('../img/bg-img-flip.jpg');
-    backdrop-filter: blur(12px);
+.carousel-inner h5{
+    font-family: rockwell;
+    margin-top: 0.5rem;
 }
 
 
 .caption-link a{
-text-decoration: none;   
-color: inherit;
+    text-decoration: none;   
+    color: inherit;
+    }
+    
+
+----------Model Page-------------
+#model-pg .header{
+    height:100px !important;
 }
 
+#model-pg #body{
+    padding-top:100px;
+}
+
+#model-pg .card img{
+    max-width: 100px;
+}
+
+#model-pg .card-title {
+    font-family: rockwell;
+    text-align: center;    
+}
+
+#model-pg{
+
+}
+
+------------LP Page-------------
+#lp-pg{
+
+}
+
+-----------Portfolio Page--------
+
+
+
+
+
+--------Scroll COde-------
 
 .scroll-box{
     overflow-y: scroll !important;
-    height: 100px !important;/*92vh;*/
-    overflow-scrolling: touch;
+    height: 150px !important;/*92vh;*/
     -webkit-overflow-scrolling: touch !important;
     /* overflow: hidden; */
     overflow-y: auto !important;
@@ -76,13 +99,13 @@ color: inherit;
 }
 
     /* width */
-    ::-webkit-scrollbar {
-        width: 5px !important;
+::-webkit-scrollbar {
+        /*width: 5px !important;*/
       }
     
       
 /* Track */
-::-webkit-scrollbar-track {
+ ::-webkit-scrollbar-track {
     background: #f1f1f1;
   }
   
@@ -96,7 +119,7 @@ color: inherit;
     background: #555;
   }
 
---------Scroll COde-------
+
 
 
 /* ------------Overrides------------*/
@@ -172,7 +195,7 @@ color: inherit;
 }
 
 #body .card{
-    height:400px;
+    height:460px;
 }
 
 .card{
@@ -187,7 +210,21 @@ border-radius: 1.25rem !important;
     padding:0 10px 0 10px;
 }
 
+.form-control{
+    color:#4D4F53 !important;
+}
+
+.form-control:focus{
+border-color: #ffc107;
+outline: 0;
+box-shadow: 0 0 0 0.25rem #ffc10757;
+}
+
 /*-------------Custom-------------------*/
+.text-forgot{
+color: #e0a000;
+}
+
 .bg-dim{
     background-color: rgba(0,0,0,.5);
 }
@@ -251,7 +288,10 @@ border-radius: 1.25rem !important;
 
 /*-------------Media Queries-------------------*/
 /*------Small Screens---------*/
-@media (max-width: 575px){    
+@media (max-width: 575px){   
+#login-pg header{
+    height:20px;
+} 
 .login-form .btn{
     width:10em !important;
 }
@@ -276,9 +316,10 @@ border-radius: 1.25rem !important;
 
 /*-------Medium Screens--------*/
 @media (min-width: 786px){
-    .w-md-90{width: 90%!important;}
+    .w-lg-60{width: 60%!important;}    
+    .w-lg-40{width: 40%!important;}   
     .logo img{
-        max-width:80px;
+        max-width:60px;
     }
 
     
@@ -305,7 +346,7 @@ border-radius: 1.25rem !important;
         width:6.5em !important;
     }
     .logo img{
-        max-width:80px;
+        max-width:70px;
     }
 }
 
