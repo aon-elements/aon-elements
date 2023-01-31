@@ -66,7 +66,7 @@ body a:hover{
     height:100px !important;
 }
 
-#model-pg #body{
+#model-pg #content{
     padding-top:100px;
 }
 
@@ -91,10 +91,10 @@ body a:hover{
 
 
 --------Scroll Code-------
-.scrol{
-    overflow-y: scroll !important;
+.box{
+    /* overflow-y: scroll !important; */
     height: 100px !important;/*92vh;*/
-    -webkit-overflow-scrolling: touch !important;
+    /* -webkit-overflow-scrolling: touch !important; */
     /* overflow: hidden; */
     overflow-y: auto !important;
     scrollbar-width: thin !important;
@@ -173,7 +173,7 @@ body a:hover{
     margin-left: unset !important;
 }
 
-#body .card{
+#content .card{
     height:500px;
 }
 
