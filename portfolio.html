@@ -13,14 +13,81 @@
   </head>
   <body id="port-pg">
 
-    <div class="container-xxxl">
       <header>
+        <div class="side-bar">
+          <div class="apps">apps</div>
+          <div class="icons">
+            <img src="/img/home-icon.svg">        
+               <i class="indicator">&nbsp;</i>
+            <i class="sep">&nbsp;</i>
+ 
+          </div>
+        </div>
+        <div class="top-row">
+          <div class="container-lg d-flex flex-row justify-content-between">
+            <div class="float-left my-auto"><img src="img/aon-logo-white.png" class="aon-logo"><img src="img/if-elements-logo.svg" class="if-logo"></div>
+            <div class="float-right my-auto"><img src="img/help-icon.svg" class="help-icon"><img src="img/user-icon.svg" class="user-icon">   <img src="img/hbm-icon.svg" class="hbm-icon">
+             </div>
+          </div>
+        </div>
+        <div class="bottom-row">
+          <div class="container-lg bg-white">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light float-end bg-white">
+            <div class="container-fluid">
+              <!--<a class="navbar-brand" href="#">Navbar</a>-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Parameter Adjustments</a>
+                  </li>
 
-      </header><!--header-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Custom Functions
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">SubMenu1</a></li>
+                      <li><a class="dropdown-item" href="#">SubMenu2</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu3</a></li>
+                    </ul>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Explorer</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          </div>
+        </div>
+      </header>
+
+    <section id="content" class="container-lg">
+<div class="port-content p-3">
+<div class="jobs"><img src="/img/Jobs.png">
+
+  <div class="d-flex flex-md-row justify-content-around pt-3">
+  <button class="btn btn-danger">STOP JOB</button><button class="btn btn-danger">DELETE JOB</button>
+</div>
+</div>
+<hr>
+<div class="reports">
 
 
-    <section id="content">
-Main contents goes here
+    <div class="d-flex flex-md-row justify-content-around">
+      <button class="btn btn-warning">View Progress</button><button class="btn btn-warning">View Report</button><button class="btn btn-warning">View Job Details</button>
+    </div>
+    <div class="d-flex flex-md-row justify-content-around pt-5">
+
+   <div><img src="/img/graph.svg"></div><div><img src="/img/pie-chart.svg"></div>
+  </div>
+
+</div>
+</div>
 
     </section><!--content-->
 
@@ -28,7 +95,7 @@ Main contents goes here
     <footer></footer><!--footer-->
 
 
-    </div><!--container--> 
+   
  
 
     <!-- Optional JavaScript; choose one of the two! -->

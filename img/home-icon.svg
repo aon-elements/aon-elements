@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="84" viewBox="0 0 60 84">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="60" height="60" fill="#4d4f53"/>
+    </clipPath>
+  </defs>
+  <g id="home-icon" transform="translate(-19.999 -8)">
+    <text id="Home" transform="translate(34 89)" fill="#4d4f53" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Home</tspan></text>
+    <g id="clarity_home-line" transform="translate(19.999 8)" clip-path="url(#clip-path)">
+      <path id="Path_2" data-name="Path 2" d="M58.472,31.038l-25-25a1.667,1.667,0,0,0-2.35,0l-25,25a1.667,1.667,0,0,0,2.35,2.35L32.288,9.571,56.105,33.4a1.667,1.667,0,0,0,2.35-2.35Z" transform="translate(-2.123 -1.841)" fill="#4d4f53"/>
+      <path id="Path_3" data-name="Path 3" d="M53.333,73.067H45V56.4H28.333V73.067H20V49.733l-3.333,3.333v20A3.333,3.333,0,0,0,20,76.4H31.667V59.733h10V76.4H53.333a3.333,3.333,0,0,0,3.333-3.333v-20.4l-3.333-3.333Z" transform="translate(-6.502 -19.353)" fill="#4d4f53"/>
+    </g>
+  </g>
+</svg>

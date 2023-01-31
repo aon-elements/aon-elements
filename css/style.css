@@ -8,7 +8,7 @@ body{
     height:100vh;
     font-family: Arial, Helvetica, sans-serif;
     color:#4D4F53;
-    /* background-color: aliceblue; */
+    background-color: #f6f6f6;
 }
 
 body a{
@@ -85,10 +85,85 @@ body a:hover{
 
 -----------Portfolio Page--------
 
-#port-pg{
+#port-bg{
     background-color: #f6f6f6 !important;
 }
 
+.side-bar{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 5000;
+    background-color: #e9ecef;
+    height: 100%;
+    /*width:50px;*/
+}
+
+.side-bar .apps{
+    background-color: #4D4F53;
+    height:35px;
+}
+
+.side-bar .icons img{
+    width:40px;
+}
+
+.side-bar .indicator{
+    display: inline-flex;
+    height: 55px;
+    background: url(/img/indicator.svg);
+    top: -10px;
+    position: relative;
+}
+
+.side-bar .sep{
+    display: block;
+    background: url(/img/line.svg);
+    height: 1px;
+    margin-top: -6px; /*5*/
+}
+
+.top-row{
+background-color: #4D4F53;
+/* height: 60px; */
+}
+
+.top-row img.aon-logo{
+    width:60px; /*100px*/
+    max-width:100px;
+}
+
+.top-row img.if-logo{
+    width:125px; /*184*/
+    max-width:184px;
+}
+
+.top-row .help-icon{
+    width:28px;
+}
+
+.top-row .user-icon{
+    width:30px;
+}
+
+.top-row .hbm-icon{
+    width:35px;
+}
+
+.bottom-row{
+    background-color: #fff;
+    height: 56px; /*100px*/
+}
+
+
+.port-content{
+background-color: #f6f6f6;
+min-height:90vh;
+}
+
+.port-content .jobs img{
+width:100%;
+}
 
 
 --------Scroll Code-------
@@ -197,6 +272,17 @@ border-radius: 1.25rem !important;
 border-color: #ffc107;
 outline: 0;
 box-shadow: 0 0 0 0.25rem #ffc10757;
+}
+
+.dropdown-menu {
+    border: 0px !important;
+    border-radius:unset !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #bcbdbe !important;
 }
 
 /*-------------Custom-------------------*/
