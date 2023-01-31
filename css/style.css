@@ -5,13 +5,10 @@
   }
 
 body{
-    background-image: url('../img/bg-img-flip.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
     height:100vh;
     font-family: Arial, Helvetica, sans-serif;
     color:#4D4F53;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 
 body a{
@@ -21,6 +18,12 @@ body a{
 
 body a:hover{
     color:unset;
+}
+
+#page-bg{
+    background-image: url(../img/bg-img-flip.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .logo{
@@ -36,10 +39,13 @@ body a:hover{
 }
 
 
------------Login Page------------
-#login-pg{
-    background-image: url('../img/bg-img-flip.jpg') !important;
-    backdrop-filter: blur(12px) !important;
+------------Login Page-------------
+
+
+#home-pg{
+    background-image: url(../img/bg-img-flip.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .carousel-inner h5{
@@ -55,6 +61,7 @@ body a:hover{
     
 
 ----------Model Page-------------
+
 #model-pg .header{
     height:100px !important;
 }
@@ -72,18 +79,14 @@ body a:hover{
     text-align: center;    
 }
 
-#model-pg{
 
-}
 
-------------LP Page-------------
-#lp-pg{
-
-}
 
 -----------Portfolio Page--------
 
-
+#port-pg{
+    background-color: #f6f6f6 !important;
+}
 
 
 
