@@ -1,37 +1,37 @@
 @font-face {
     font-family:rockwell;
-    src: url(/fonts/Rockwell-Font/ROCK.TTF);
+    src: url(../fonts/Rockwell-Font/ROCK.TTF);
     /* src:url(/fonts/Rockwell-Font/Rockwell-Bold.ttf); */
   }
 
   @font-face {
     font-family:Rockwell-bOLD;
-    src:url(/fonts/Rockwell-Font/Rockwell-Bold.ttf);
+    src:url(../fonts/Rockwell-Font/Rockwell-Bold.ttf);
   }
 
   @font-face {
     font-family: HelveticaNowText;
-    src: url(/fonts/HelveticaNowText-Font/HelveticaNowText.ttf);
+    src: url(../fonts/HelveticaNowText-Font/HelveticaNowText.ttf);
   }
 
   @font-face {
     font-family: HelveticaNowTextBdIt;
-    src: url(/fonts/HelveticaNowText-Font/HelveticaNowTextBdIt.ttf);
+    src: url(../fonts/HelveticaNowText-Font/HelveticaNowTextBdIt.ttf);
   }
 
   @font-face {
     font-family: HelveticaNowTextIt;
-    src: url(/fonts/HelveticaNowText-Font/HelveticaNowTextIt.ttf);
+    src: url(../fonts/HelveticaNowText-Font/HelveticaNowTextIt.ttf);
   }
 
   @font-face {
     font-family: HelveticaNowTextLight;
-    src: url(/fonts/HelveticaNowText-Font/HelveticaNowTextLight.ttf);
+    src: url(../fonts/HelveticaNowText-Font/HelveticaNowTextLight.ttf);
   }
 
   @font-face {
     font-family: HelveticaNowTextLtIt;
-    src: url(/fonts/HelveticaNowText-Font/HelveticaNowTextLtIt.ttf);
+    src: url(../fonts/HelveticaNowText-Font/HelveticaNowTextLtIt.ttf);
   }
 
   @font-face {
@@ -41,7 +41,7 @@
 
   @font-face {
     font-family: HelveticaNowTextMedium;
-    src: url(/fonts/HelveticaNowText-Font/HelveticaNowTextMedium.ttf);
+    src: url(../fonts/HelveticaNowText-Font/HelveticaNowTextMedium.ttf);
   }
   
  
@@ -57,25 +57,25 @@
 
     @font-face{
         font-family:"HelveticaDisplayLight";
-        src:url("/fonts/HelveticaNowDisplay-Font/bc12c1b5-9f94-4151-86f1-774120c7e7cd.woff2") format("woff2"),url("/fonts/HelveticaNowDisplay-Font/64773d4b-eaac-4a57-b259-c8be950bc3c4.woff") format("woff");
+        src:url("../fonts/HelveticaNowDisplay-Font/bc12c1b5-9f94-4151-86f1-774120c7e7cd.woff2") format("woff2"),url("../fonts/HelveticaNowDisplay-Font/64773d4b-eaac-4a57-b259-c8be950bc3c4.woff") format("woff");
 font-weight: 325;
 font-style: normal;
     }
     @font-face{
         font-family:"HelveticaDisplay";
-        src:url("/fonts/HelveticaNowDisplay-Font/644d8155-d6f1-42bb-8c90-2c98b785b510.woff2") format("woff2"),url("/fonts/HelveticaNowDisplay-Font/4b0db5c8-a742-4486-9214-fe8eee4ede3d.woff") format("woff");
+        src:url("../fonts/HelveticaNowDisplay-Font/644d8155-d6f1-42bb-8c90-2c98b785b510.woff2") format("woff2"),url("../fonts/HelveticaNowDisplay-Font/4b0db5c8-a742-4486-9214-fe8eee4ede3d.woff") format("woff");
 font-weight: 400;
 font-style: normal;
     }
     @font-face{
         font-family:"HelveticaDisplaySemiBold";
-        src:url("/fonts/HelveticaNowDisplay-Font/effd846d-39d3-439a-a81b-14b26fd5fb7e.woff2") format("woff2"),url("/fonts/HelveticaNowDisplay-Font/c2e2103e-7e6b-4248-b080-0100c5896596.woff") format("woff");
+        src:url("../fonts/HelveticaNowDisplay-Font/effd846d-39d3-439a-a81b-14b26fd5fb7e.woff2") format("woff2"),url("../fonts/HelveticaNowDisplay-Font/c2e2103e-7e6b-4248-b080-0100c5896596.woff") format("woff");
 font-weight: 500;
 font-style: normal;
     }
     @font-face{
         font-family:"HelveticaDisplayBold";
-        src:url("/fonts/HelveticaNowDisplay-Font/081486f6-ae1e-4fc6-8ab9-6a939e96bbdc.woff2") format("woff2"),url("/fonts/HelveticaNowDisplay-Font/2acf5951-bff6-44e3-949f-a3fa4de57397.woff") format("woff");
+        src:url("../fonts/HelveticaNowDisplay-Font/081486f6-ae1e-4fc6-8ab9-6a939e96bbdc.woff2") format("woff2"),url("../fonts/HelveticaNowDisplay-Font/2acf5951-bff6-44e3-949f-a3fa4de57397.woff") format("woff");
 font-weight: 700;
 font-style: normal;
     } 
