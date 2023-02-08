@@ -4,12 +4,59 @@
     /* src:url(/fonts/Rockwell-Font/Rockwell-Bold.ttf); */
   }
 
+  @font-face {
+    font-family: HelveticaNowText;
+    src: url(/fonts/HelveticaNowText-Font/HelveticaNowText.ttf);
+  }
+
+  @font-face {
+    font-family: HelveticaNowTextBdIt;
+    src: url(/fonts/HelveticaNowText-Font/HelveticaNowTextBdIt.ttf);
+  }
+
+  @font-face {
+    font-family: HelveticaNowTextIt;
+    src: url(/fonts/HelveticaNowText-Font/HelveticaNowTextIt.ttf);
+  }
+
+  @font-face {
+    font-family: HelveticaNowTextLight;
+    src: url(/fonts/HelveticaNowText-Font/HelveticaNowTextLight.ttf);
+  }
+
+  @font-face {
+    font-family: HelveticaNowTextLtIt;
+    src: url(/fonts/HelveticaNowText-Font/HelveticaNowTextLtIt.ttf);
+  }
+
+  @font-face {
+    font-family: HelveticaNowTextMdIt;
+    src: url(/fonts/HelveticaNowText-Font/HelveticaNowTextMdIt.ttf);
+  }
+
+  @font-face {
+    font-family: HelveticaNowTextMedium;
+    src: url(/fonts/HelveticaNowText-Font/HelveticaNowTextMedium.ttf);
+  }
+  
+ 
+
+/*   @font-face {
+    font-family: "CustomFont";
+    src: url("https://yoursite.com/css/fonts/CustomFont.eot");
+    src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),
+    url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),
+    url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
+    } */
+
+
 body{
     height:100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:HelveticaNowText;
     color:#4D4F53;
     background-color: #f6f6f6;
 }
+
 
 body a{
     text-decoration: none !important;
@@ -50,7 +97,7 @@ body a:hover{
 }
 
 .carousel-inner h5{
-    font-family: rockwell;
+    font-family: HelveticaNowTextLight;
     margin-top: 0.5rem;
 }
 
@@ -76,11 +123,9 @@ body a:hover{
 }
 
 #model-pg .card-title {
-    font-family: rockwell;
+    font-family: HelveticaNowTextBold;
     text-align: center;    
 }
-
-
 
 
 -----------Portfolio Page--------
