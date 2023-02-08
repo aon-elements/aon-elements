@@ -137,7 +137,7 @@ body a:hover{
 }
 
 .carousel-inner h5{
-    font-family: "HelveticaDisplayBold", 'Times New Roman', Times, serif;
+    font-family: "HelveticaDisplayLight", 'Times New Roman', Times, serif;
     margin-top: 0.5rem;
 }
 
@@ -147,7 +147,10 @@ body a:hover{
     color: inherit;
     }
     
-
+.news{
+    color:#5EB9E4;
+    font-family: HelveticaNowTextLtIt;
+}
 ----------Model Page-------------
 
 #model-pg .header{
