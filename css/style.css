@@ -74,7 +74,7 @@ font-weight: 500;
 font-style: normal;
     }
     @font-face{
-        font-family:"Helvetica Now Display W05";
+        font-family:"Helvetica Now Display W05 Bold";
         src:url("fonts/HelveticaNowDisplay-Font/081486f6-ae1e-4fc6-8ab9-6a939e96bbdc.woff2") format("woff2"),url("fonts/HelveticaNowDisplay-Font/2acf5951-bff6-44e3-949f-a3fa4de57397.woff") format("woff");
 font-weight: 700;
 font-style: normal;
@@ -130,7 +130,7 @@ body a:hover{
 }
 
 .carousel-inner h5{
-    font-family: "Helvetica Now Display W05";
+    font-family:"Helvetica Now Display W05 Bold";
     margin-top: 0.5rem;
 }
 
