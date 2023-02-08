@@ -74,11 +74,16 @@ font-weight: 500;
 font-style: normal;
     }
     @font-face{
-        font-family:"Helvetica Now Display W05 Bold";
+        font-family:"HelveticaDisplayBold";
         src:url("fonts/HelveticaNowDisplay-Font/081486f6-ae1e-4fc6-8ab9-6a939e96bbdc.woff2") format("woff2"),url("fonts/HelveticaNowDisplay-Font/2acf5951-bff6-44e3-949f-a3fa4de57397.woff") format("woff");
 font-weight: 700;
 font-style: normal;
     }
+
+    @font-face {
+        font-family: "HelveticaDisplayBold";
+        src: url("fonts/HelveticaNowDisplay-Font/081486f6-ae1e-4fc6-8ab9-6a939e96bbdc.woff2") format("woff"),
+        } 
 
 
 
@@ -130,7 +135,7 @@ body a:hover{
 }
 
 .carousel-inner h5{
-    font-family:"Helvetica Now Display W05 Bold";
+    font-family:HelveticaDisplayBold;
     margin-top: 0.5rem;
 }
 
@@ -515,8 +520,8 @@ color: #e0a000;
 
 /*-------XX-Large Screens--------*/
 @media (min-width: 1400px){
-    .w-lg-60{width: 90%!important;}    
-    .w-lg-40{width: 60%!important;}    
+    .w-lg-60{width: 70%!important;}    
+    .w-lg-40{width: 30%!important;}    
     .login-form .btn{
         width:7em !important;
     }
