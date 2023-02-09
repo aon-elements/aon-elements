@@ -20,6 +20,11 @@
   }
 
   @font-face {
+    font-family: HelveticaNowTextBold;
+    src: url(../fonts/HelveticaNowText-Font/HelveticaNowTextBold.ttf);
+  }
+
+  @font-face {
     font-family: HelveticaNowTextIt;
     src: url(../fonts/HelveticaNowText-Font/HelveticaNowTextIt.ttf);
   }
