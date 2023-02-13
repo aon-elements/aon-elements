@@ -128,7 +128,7 @@ body a:hover{
 
 .logo img{
     /* max-width:50px; */
-    max-width:80px;
+    max-width:60px;
 }
 
 
@@ -458,7 +458,7 @@ color: #e0a000;
     width:10em !important;
 }
 .logo img{
-     max-width:50px;
+     max-width:40px;
 }
 }
 
@@ -470,7 +470,7 @@ color: #e0a000;
     width:6em !important;
 }
 .logo img{
-    max-width:70px;
+    max-width:50px;
 }
 
 }
@@ -505,7 +505,7 @@ color: #e0a000;
         width:6.5em !important;
     }
     .logo img{
-        max-width:70px;
+        max-width:60px;
     }
 }
 
@@ -519,7 +519,7 @@ color: #e0a000;
         width:7em !important;
     }
     .logo img{
-        max-width:80px;
+        max-width:60px;
     }
     
 
