@@ -1,0 +1,205 @@
+//-----------Portfolio Page--------
+
+#port-bg{
+    background-color: #f6f6f6 !important;
+}
+
+.side-bar{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 5000;
+    background-color: #e9ecef;
+    height: 100%;
+    /*width:50px;*/
+}
+
+.side-bar .apps{
+    background-color: #4D4F53;
+    height:48.5px; /*35px*/
+}
+
+.side-bar .icons img{
+    width:40px;
+}
+
+.side-bar .indicator{
+    display: inline-flex;
+    height: 55px;
+    background: url(../img/indicator.svg);
+    top: -10px;
+    position: relative;
+}
+
+.side-bar .sep{
+    display: block;
+    background: url(../img/line.svg);
+    height: 1px;
+    margin-top: -6px; /*5*/
+}
+
+.top-row{
+background-color: #4D4F53;
+/* height: 60px; */
+}
+
+.top-row img.aon-logo{
+    width:80px; /*100px*/
+    max-width:100px;
+}
+
+.top-row img.if-logo{
+    width:125px; /*184*/
+    max-width:184px;
+}
+
+.top-row .help-icon{
+    width:28px;
+}
+
+.top-row .user-icon{
+    width:30px;
+}
+
+.top-row .hbm-icon{
+    width:35px;
+}
+
+.bottom-row{
+    background-color: #fff;
+    height: 56px; /*100px*/
+}
+
+
+.port-content{
+background-color: #f6f6f6;
+min-height:90vh;
+}
+
+.port-content .jobs img{
+width:100%;
+}
+
+.stop-delete{
+    font-size: 0.5rem;
+}
+
+
+--------Scroll Code-------
+.scroll-box{
+    /* overflow-y: scroll !important; */
+    height: 100px !important;/*92vh;*/
+    /* -webkit-overflow-scrolling: touch !important; */
+    /* overflow: hidden; */
+    overflow-y: auto !important;
+    scrollbar-width: thin !important;
+}
+
+ /* ------------Overrides------------*/
+.text-warning{
+    color:#F0AB00 !important;
+}
+
+.btn-warning {
+    color: #fff !important;
+    background-color: #F0AB00 !important; /*ffc107*/
+    border-color: #F0AB00 !important;
+}
+
+.carousel-indicators{
+    position:absolute !important;
+    bottom:-50px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 50% !important;
+    width:15px !important;
+    height: 15px !important;
+    background-color:#F0AB00 !important;
+    opacity: 1 !important;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color:#e11b22 !important;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    /* top: -130px; */
+    height:60%;
+}
+
+.carousel-caption{
+    position:unset !important;
+    text-align: left;
+   /* bottom:-50px !important;
+   background-color: rgba(0, 0, 0, 0.66);*/
+   background-color: #fff;
+   color: #4D4F53;
+}
+
+
+.login-form{
+    min-height:400px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+}
+
+.login-form form img{
+    width:50px;
+}
+
+.login-form .title-text{
+    color:#4e4e4e;
+    font-size: 1.2em;
+}
+
+.login-form .btn{
+    width:10em;
+}
+
+.carousel{
+    min-height:400px;
+}
+
+.form-check .form-check-input {
+    float: unset !important;
+    margin-left: unset !important;
+}
+
+#content .card{
+    height:500px;
+}
+
+.card{
+border-radius: 1.25rem !important;
+}
+
+.card-title {
+    margin-bottom: 1.5rem !important;
+}
+
+/* .card-text{
+    padding:0 10px 0 10px;
+} */
+
+.form-control{
+    color:#4D4F53 !important;
+}
+
+.form-control:focus{
+border-color: #ffc107;
+outline: 0;
+box-shadow: 0 0 0 0.25rem #ffc10757;
+}
+
+.dropdown-menu {
+    border: 0px !important;
+    border-radius:unset !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #bcbdbe !important;
+}

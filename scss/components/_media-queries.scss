@@ -1,0 +1,103 @@
+/*-------------Media Queries-------------------*/
+/*------Small Screens---------*/
+@media (max-width: 575px){   
+    #login-pg header{
+        height:20px;
+    } 
+    .login-form .btn{
+        width:10em !important;
+    }
+    .logo img{
+         max-width:40px;
+    }
+    }
+    
+    @media (min-width: 576px){
+    .w-sm-50{width: 50%!important;}
+    .w-sm-60{width: 60%!important;}
+    .w-sm-40{width: 40%!important;}
+    .login-form .btn{
+        width:6em !important;
+    }
+    .logo img{
+        max-width:50px;
+    }
+    
+    }
+    
+    
+    /*-------Medium Screens--------*/
+    @media (min-width: 786px){
+        .w-lg-60{width: 60%!important;}    
+        .w-lg-40{width: 40%!important;}   
+        .logo img{
+            max-width:60px;
+        }    
+        }
+    
+    
+        @media (max-width:785px){
+        
+            .container-xxxl {
+                max-width: 2000px;
+                width: 100%;
+                padding-right: unset !important;
+                padding-left: unset !important;
+            }        
+            }
+    
+    /*-------Large Screens--------*/
+    @media (min-width: 992px){
+        .w-lg-60{width: 60%!important;}    
+        .w-lg-40{width: 40%!important;}    
+    
+        .login-form .btn{
+            width:6.5em !important;
+        }
+        .logo img{
+            max-width:60px;
+        }
+    }
+    
+    
+    /*-------X-Large Screens--------*/
+    @media (min-width: 1200px){
+    
+        .w-lg-60{width: 65%!important;}    
+        .w-lg-40{width: 35%!important;}    
+        .login-form .btn{
+            width:7em !important;
+        }
+        .logo img{
+            max-width:60px;
+        }
+        
+    
+    }
+    
+    /*-------XX-Large Screens--------*/
+    @media (min-width: 1400px){
+        .w-lg-60{width: 70%!important;}    
+        .w-lg-40{width: 30%!important;}    
+        .login-form .btn{
+            width:7em !important;
+        }
+        .logo img{
+            max-width:80px;
+        }
+    
+    }
+    
+    /*-------XXX-Large Screens--------*/
+    @media (min-width: 2800px){
+    
+        .w-lg-60{width: 70%!important;}    
+        .w-lg-40{width: 30%!important;}    
+        .login-form .btn{
+            width:7em !important;
+        }
+        .logo img{
+            max-width:80px;
+        }
+    
+    }
