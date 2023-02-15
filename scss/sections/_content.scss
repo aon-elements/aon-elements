@@ -1,4 +1,4 @@
-//Content
+//Content CSS
 
 body{
     height:100vh;
@@ -24,16 +24,4 @@ body a:hover{
     backdrop-filter: blur(3px);
     /*-webkit-filter: blur(5px);
     filter: blur(5px);*/
-}
-
-.logo{
-    position: absolute;
-    left: 20px;
-     /*bottom: 30px;*/
-    top:30px;
-}
-
-.logo img{
-    /* max-width:50px; */
-    max-width:60px;
 }
