@@ -1,6 +1,8 @@
 
 @use'custom';
 
+@use'overrides';
+
 //IMPORT COMPONENTS
 @use'components/animations';
 @use'components/mixins';
@@ -16,5 +18,6 @@
 @use'sections/models';
 @use'sections/portfolio';
 @use'sections/header';
+@use'sections/'
 
 
