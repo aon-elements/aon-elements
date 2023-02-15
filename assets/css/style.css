@@ -11851,6 +11851,43 @@ font-style: normal;
     max-width: 80px;
   }
 }
+body {
+  height: 100vh;
+  font-family: HelveticaNowText, Helvetica, Arial, sans-serif;
+  color: #4D4F53;
+  background-color: #f6f6f6;
+}
+
+body a {
+  text-decoration: none !important;
+  color: unset;
+}
+
+body a:hover {
+  color: unset;
+}
+
+#page-bg {
+  background-image: url(../img/bg-img-flip.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(3px);
+  /*-webkit-filter: blur(5px);
+  filter: blur(5px);*/
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+  /*bottom: 30px;*/
+  top: 30px;
+}
+
+.logo img {
+  /* max-width:50px; */
+  max-width: 60px;
+}
+
 #home-pg {
   background-image: url(../img/bg-img-flip.jpg) !important;
   background-size: cover;
@@ -12086,43 +12123,6 @@ font-style: normal;
   color: #fff;
   text-decoration: none;
   background-color: #bcbdbe !important;
-}
-
-body {
-  height: 100vh;
-  font-family: HelveticaNowText, Helvetica, Arial, sans-serif;
-  color: #4D4F53;
-  background-color: #f6f6f6;
-}
-
-body a {
-  text-decoration: none !important;
-  color: unset;
-}
-
-body a:hover {
-  color: unset;
-}
-
-#page-bg {
-  background-image: url(../img/bg-img-flip.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  backdrop-filter: blur(3px);
-  /*-webkit-filter: blur(5px);
-  filter: blur(5px);*/
-}
-
-.logo {
-  position: absolute;
-  left: 20px;
-  /*bottom: 30px;*/
-  top: 30px;
-}
-
-.logo img {
-  /* max-width:50px; */
-  max-width: 60px;
 }
 
 /*# sourceMappingURL=style.css.map */
