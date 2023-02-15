@@ -1,12 +1,9 @@
-/* Error: The default namespace "" is not a valid Sass identifier.
- * 
- * Recommendation: add an "as" clause to define an explicit namespace.
- *    ,
- * 21 | / @use'sections/'
- * 22 | | 
- * 23 | \ 
- *    '
- *   scss\style.scss 21:1  root stylesheet */
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 4 | @use'overrides';
+ *   | ^^^^^^^^^^^^^^^
+ *   '
+ *   scss\style.scss 4:1  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -16,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: The default namespace \"\" is not a valid Sass identifier.\a\aRecommendation: add an \"as\" clause to define an explicit namespace.\a    \2577 \a 21 \2502  \250c  @use'sections/'\a 22 \2502  \2502  \a 23 \2502  \2514  \a    \2575 \a   scss\\style.scss 21:1  root stylesheet";
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 4 \2502  @use'overrides';\d\a   \2502  ^^^^^^^^^^^^^^^\a   \2575 \a   scss\\style.scss 4:1  root stylesheet";
 }
