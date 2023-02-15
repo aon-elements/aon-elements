@@ -1,9 +1,9 @@
 /* Error: Undefined variable.
  *    ,
- * 29 | $accordion-icon-color:                    $body-color !default;
+ * 27 | $accordion-icon-color:                    $body-color !default;
  *    |                                           ^^^^^^^^^^^
  *    '
- *   scss\_custom.scss 29:43  @use
+ *   scss\_custom.scss 27:43  @use
  *   scss\style.scss 2:1      root stylesheet */
 
 body::before {
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 29 \2502  $accordion-icon-color:                    $body-color !default;\d\a    \2502                                            ^^^^^^^^^^^\a    \2575 \a   scss\\_custom.scss 29:43  @use\a   scss\\style.scss 2:1      root stylesheet";
+  content: "Error: Undefined variable.\a    \2577 \a 27 \2502  $accordion-icon-color:                    $body-color !default;\d\a    \2502                                            ^^^^^^^^^^^\a    \2575 \a   scss\\_custom.scss 27:43  @use\a   scss\\style.scss 2:1      root stylesheet";
 }
