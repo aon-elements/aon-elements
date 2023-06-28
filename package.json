@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/aon-elements/aon-elements#readme",
   "devDependencies": {
-    "sass": "^1.58.1"
+    "sass": "^1.63.6"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.3.0",
