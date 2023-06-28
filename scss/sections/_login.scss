@@ -32,13 +32,13 @@
     border-radius: 50% !important;
     width:15px !important;
     height: 15px !important;
-    background-color:#F0AB00 !important;
+    background-color:#FFA600 !important;
     opacity: 1 !important;
 }
 
 .carousel-indicators .active {
     opacity: 1;
-    background-color:#e11b22 !important;
+    background-color:#EB0017 !important;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -52,22 +52,22 @@
    /* bottom:-50px !important;
    background-color: rgba(0, 0, 0, 0.66);*/
    background-color: #fff;
-   color: #4D4F53;
+   color: #46535E;
 }
 
 
 .login-form{
     min-height:400px;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.75);
     border-radius: 15px;
 }
 
 .login-form form img{
-    width:50px;
+    width:200px;
 }
 
 .login-form .title-text{
-    color:#4e4e4e;
+    color:#46535E;
     font-size: 1.2em;
 }
 
