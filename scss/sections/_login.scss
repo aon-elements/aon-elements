@@ -22,3 +22,66 @@
     color:#0084BB;
     font-family: HelveticaNowTextLtIt;
 }
+
+.carousel-indicators{
+    position:absolute !important;
+    bottom:-50px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 50% !important;
+    width:15px !important;
+    height: 15px !important;
+    background-color:#F0AB00 !important;
+    opacity: 1 !important;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color:#e11b22 !important;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    /* top: -130px; */
+    height:60%;
+}
+
+.carousel-caption{
+    position:unset !important;
+    text-align: left;
+   /* bottom:-50px !important;
+   background-color: rgba(0, 0, 0, 0.66);*/
+   background-color: #fff;
+   color: #4D4F53;
+}
+
+
+.login-form{
+    min-height:400px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+}
+
+.login-form form img{
+    width:50px;
+}
+
+.login-form .title-text{
+    color:#4e4e4e;
+    font-size: 1.2em;
+}
+
+.login-form .btn{
+    width:23.5em;
+}
+
+.carousel{
+    min-height:400px;
+}
+
+.form-check .form-check-input {
+    float: unset !important;
+    margin-left: unset !important;
+}
+
+
