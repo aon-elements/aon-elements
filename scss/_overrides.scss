@@ -1,6 +1,7 @@
 /*-------------Overrides-------------------*/
 
 //ELEMENTS THEME COLORS
+$navy: #262836;
 $crimson: #EB0017;
 $gold: #FFA600;
 $light-blue: #EEF6F7;
@@ -13,8 +14,8 @@ $light-gray: #ACC0C4;
 
 .btn-warning {
     color: #fff !important;
-    background-color: #FFA600 !important; /*ffc107*/
-    border-color: #FFA600 !important;
+    background-color: $gold !important; /*ffc107*/
+    border-color: $gold !important;
 }
 
 

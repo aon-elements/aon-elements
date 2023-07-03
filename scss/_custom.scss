@@ -1,6 +1,7 @@
 /*-------------Custom-------------------*/
 body{
     font-family: HelveticaNowText,sans-serif;
+    font-weight:normal;
 }
 .text-forgot{
     color: #FFA600;
@@ -35,7 +36,8 @@ body{
     }
     
     .txt-shadow{
-        text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.45);
+        /* text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.45); */
+        text-shadow: 0 3px 6px #e5eff0, 0 3px 6px rgba(0, 0, 0, 0.16);
     }
     
     .container-xxl{

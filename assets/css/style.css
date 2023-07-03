@@ -2,6 +2,7 @@
 /*-------------Custom-------------------*/
 body {
   font-family: HelveticaNowText, sans-serif;
+  font-weight: normal;
 }
 
 .text-forgot {
@@ -37,7 +38,8 @@ body {
 }
 
 .txt-shadow {
-  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.45);
+  /* text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.45); */
+  text-shadow: 0 3px 6px #e5eff0, 0 3px 6px rgba(0, 0, 0, 0.16);
 }
 
 .container-xxl {
@@ -11784,8 +11786,8 @@ font-style: normal;
 }
 body {
   height: 100vh;
-  font-family: HelveticaNowText, Helvetica, Arial, sans-serif;
-  color: #4D4F53;
+  font-family: HelveticaNowText;
+  color: #46535E;
   background-color: #f6f6f6;
 }
 
@@ -11862,7 +11864,7 @@ body a:hover {
 
 .login-form {
   min-height: 400px;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 15px;
 }
 
@@ -11877,6 +11879,11 @@ body a:hover {
 
 .login-form .btn {
   width: 23.5em;
+}
+
+.login-form form .text-forgot {
+  font-weight: 300;
+  text-shadow: 0 3px 6px #e5eff0, 0 3px 6px rgba(0, 0, 0, 0.16);
 }
 
 .carousel {
