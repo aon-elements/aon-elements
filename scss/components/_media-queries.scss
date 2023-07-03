@@ -1,4 +1,8 @@
 /*-------------Media Queries-------------------*/
+
+
+w-md-60 w-lg-40
+w-md-40 w-lg-60
 /*------Small Screens---------*/
 @media (max-width: 575px){   
 /*     #login-pg header{
@@ -28,9 +32,11 @@
     
     /*-------Medium Screens--------*/
     @media (min-width: 786px){
-/*         .w-lg-60{width: 60%!important;}    
+       .w-lg-60{width: 60%!important;}    
         .w-lg-40{width: 40%!important;}   
-        .logo img{
+        .w-md-60{width: 60%!important;}    
+        .w-md-40{width: 40%!important;}   
+      /*    .logo img{
             max-width:60px;
         }     */
         }
@@ -48,10 +54,12 @@
     
     /*-------Large Screens--------*/
     @media (min-width: 992px){
- /*        .w-lg-60{width: 60%!important;}    
+      .w-lg-60{width: 60%!important;}    
         .w-lg-40{width: 40%!important;}    
+        .w-md-60{width: 60%!important;}    
+        .w-md-40{width: 40%!important;}   
     
-        .login-form .btn{
+      /*     .login-form .btn{
             width:6.5em !important;
         }
         .logo img{
@@ -91,9 +99,9 @@
     /*-------XXX-Large Screens--------*/
     @media (min-width: 2800px){
     
-    /*     .w-lg-60{width: 70%!important;}    
+      .w-lg-60{width: 70%!important;}    
         .w-lg-40{width: 30%!important;}    
-        .login-form .btn{
+        /*   .login-form .btn{
             width:7em !important;
         }
         .logo img{
