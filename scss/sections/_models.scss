@@ -6,6 +6,12 @@
 
 #model-pg #content{
     padding-top:0px;
+    color:#262836;
+}
+
+
+#model-pg #content .card{
+    max-height:475px;
 }
 
 #model-pg .card img{
@@ -15,4 +21,21 @@
 #model-pg .card-title {
     font-family: HelveticaNowTextBold;
     text-align: center;    
+    color: #262836;
+}
+
+#model-pg .card{
+    width: 250px;
+    height: 618px;
+    padding: 37px 19px 25.8px 22px;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+#model-pg .card-bg{
+   /*  opacity: 0.25; */
+
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color:#eef6f725;
+    border-radius: 25px;
 }

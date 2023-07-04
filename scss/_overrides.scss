@@ -18,6 +18,11 @@ $light-gray: #ACC0C4;
     border-color: $gold !important;
 }
 
+.card-body{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffffde;
+}
+
 
 //WHITE and GRAY COLORS
 $white:    #fff;

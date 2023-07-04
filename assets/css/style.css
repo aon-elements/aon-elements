@@ -5,6 +5,41 @@ body {
   font-weight: normal;
 }
 
+body {
+  height: 100vh;
+  font-family: HelveticaNowText;
+}
+
+body a {
+  text-decoration: none !important;
+  color: unset;
+}
+
+body a:hover {
+  color: unset;
+}
+
+#page-bg {
+  background-image: url(../img/bg-img-flip.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(3px);
+  /*-webkit-filter: blur(5px);
+  filter: blur(5px);*/
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+  /*bottom: 30px;*/
+  top: 30px;
+}
+
+.logo img {
+  /* max-width:50px; */
+  max-width: 80px;
+}
+
 .text-forgot {
   color: #FFA600;
 }
@@ -78,6 +113,11 @@ body {
   color: #fff !important;
   background-color: #FFA600 !important; /*ffc107*/
   border-color: #FFA600 !important;
+}
+
+.card-body {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: rgba(255, 255, 255, 0.8705882353);
 }
 
 /*!
@@ -11784,31 +11824,6 @@ font-style: normal;
      }
   */
 }
-body {
-  height: 100vh;
-  font-family: HelveticaNowText;
-  color: #46535E;
-  background-color: #f6f6f6;
-}
-
-body a {
-  text-decoration: none !important;
-  color: unset;
-}
-
-body a:hover {
-  color: unset;
-}
-
-#page-bg {
-  background-image: url(../img/bg-img-flip.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  backdrop-filter: blur(3px);
-  /*-webkit-filter: blur(5px);
-  filter: blur(5px);*/
-}
-
 #home-pg {
   background-image: url(../img/bg-img-flip.jpg) !important;
   background-size: cover;
@@ -11901,6 +11916,11 @@ body a:hover {
 
 #model-pg #content {
   padding-top: 0px;
+  color: #262836;
+}
+
+#model-pg #content .card {
+  max-height: 475px;
 }
 
 #model-pg .card img {
@@ -11910,6 +11930,22 @@ body a:hover {
 #model-pg .card-title {
   font-family: HelveticaNowTextBold;
   text-align: center;
+  color: #262836;
+}
+
+#model-pg .card {
+  width: 250px;
+  height: 618px;
+  padding: 37px 19px 25.8px 22px;
+  border-radius: 25px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+#model-pg .card-bg {
+  /*  opacity: 0.25; */
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: rgba(238, 246, 247, 0.1450980392);
+  border-radius: 25px;
 }
 
 #port-bg {
@@ -12015,10 +12051,6 @@ body a:hover {
   border-color: #F0AB00 !important;
 }
 
-#content .card {
-  height: 500px;
-}
-
 .card {
   border-radius: 1.25rem !important;
 }
@@ -12049,18 +12081,6 @@ body a:hover {
   color: #fff;
   text-decoration: none;
   background-color: #bcbdbe !important;
-}
-
-.logo {
-  position: absolute;
-  left: 20px;
-  /*bottom: 30px;*/
-  top: 30px;
-}
-
-.logo img {
-  /* max-width:50px; */
-  max-width: 80px;
 }
 
 /*# sourceMappingURL=style.css.map */

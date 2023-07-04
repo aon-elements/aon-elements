@@ -3,6 +3,49 @@ body{
     font-family: HelveticaNowText,sans-serif;
     font-weight:normal;
 }
+
+//Content CSS
+
+body{
+    height:100vh;
+    font-family:HelveticaNowText;
+}
+
+
+body a{
+    text-decoration: none !important;
+    color:unset;
+}
+
+body a:hover{
+    color:unset;
+}
+
+#page-bg{
+    background-image: url(../img/bg-img-flip.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px);
+    /*-webkit-filter: blur(5px);
+    filter: blur(5px);*/
+}
+
+
+//header CSS
+
+.logo{
+    position: absolute;
+    left: 20px;
+     /*bottom: 30px;*/
+    top:30px;
+}
+
+.logo img{
+    /* max-width:50px; */
+    max-width:80px;
+}
+
+
 .text-forgot{
     color: #FFA600;
     }

@@ -1,9 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="195" height="194" viewBox="0 0 195 194">
-  <g id="Portfolio-icon" transform="translate(-388 -285)">
-    <ellipse id="Ellipse_9" data-name="Ellipse 9" cx="97.5" cy="97" rx="97.5" ry="97" transform="translate(388 285)" fill="#f0ab00" opacity="0.64"/>
-    <g id="icon-park-outline_document-folder" transform="translate(430.783 324.565)">
-      <path id="Path_47" data-name="Path 47" d="M90.334,12.5H60.4V120.27H90.334m0-107.77V120.27m0-107.77H120.27V120.27H90.334M24.474,12.5l23.949,2.994L37.946,120.27,12.5,117.276Z" transform="translate(-12.5 -12.5)" fill="none" stroke="#4d4f53" stroke-linejoin="round" stroke-width="8.333"/>
-      <path id="Path_48" data-name="Path 48" d="M71.588,35.851v-4.6m-15.338,4.6v-4.6" transform="translate(28.513 -3.113)" fill="none" stroke="#4d4f53" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.333"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="171" viewBox="0 0 170 171">
+    <g transform="translate(-.407 .355)">
+        <ellipse data-name="Ellipse 9" cx="85" cy="85.5" rx="85" ry="85.5" transform="translate(.407 -.355)" style="fill:#ffa600"/>
+        <path data-name="Path 47" d="M63.056 12.5H43.611v70h19.445m0-70v70m0-70H82.5v70H63.056m-42.778-70 15.556 1.944L29.028 82.5 12.5 80.556z" transform="translate(37.647 37.255)" style="stroke-width:5.33px;fill:none;stroke:#f9fcfc;stroke-linejoin:round"/>
+        <path data-name="Path 48" d="M62.25 33.74v-2.49m-6 2.49v-2.49" transform="translate(51.657 36.584)" style="stroke-linecap:round;stroke-width:4.33px;fill:none;stroke:#f9fcfc;stroke-linejoin:round"/>
     </g>
-  </g>
 </svg>
