@@ -39,3 +39,27 @@
     background-color:#eef6f725;
     border-radius: 25px;
 }
+
+.scroll-box{
+    overflow-y: scroll;
+    height:35vh;
+    overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+
+.scroll-box::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+.scroll-box::-webkit-scrollbar-thumb {
+    background: #82939A/*#849aab*/;
+    border-radius: 5px;
+}
+
+.scroll-box::-webkit-scrollbar {
+    width: 5px;
+}
