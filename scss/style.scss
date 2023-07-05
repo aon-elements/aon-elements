@@ -4,19 +4,11 @@
 @use'overrides';
 
 //IMPORT COMPONENTS
-@use'components/animations';
-@use'components/mixins';
 @use'components/typography';
 @use'components/media-queries';
 
 //IMPORT SECTIONS
-@use'sections/buttons';
-@use'sections/content';
-@use'sections/navbar';
-@use'sections/sidebar';
 @use'sections/login';
 @use'sections/models';
 @use'sections/portfolio';
-@use'sections/header';
-
 
