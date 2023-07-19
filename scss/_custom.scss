@@ -4,6 +4,19 @@ body{
     font-weight:normal;
 }
 
+.context-menu{
+    position:absolute;
+    top:0;
+    left:0;
+    background-color: rgba(220, 219, 219, 0.9);
+    padding:0.5em 1em 0 0;
+    border-radius: 0.2em;
+}
+
+.context-menu ul li{
+    list-style: square;
+}
+
 //Content CSS
 
 body{
